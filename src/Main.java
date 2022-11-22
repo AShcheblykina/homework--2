@@ -8,7 +8,7 @@ public class Main {
 
         if (amount >= 1000) {
             System.out.println("Итоговый бонус: " + bonus);
-        } else  {
+        } else {
             System.out.println("Итоговый бонус: 0 ");
         }
 
