@@ -1,17 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 1199;
-        int score = 0;
-        boolean x = true;
-        int bonus = amount / 100;
+        int amount = 1100;
+        int score = 100;
 
 
-        if (amount >= 1000) {
-            System.out.println("Итоговый бонус: " + bonus);
-        } else {
-            System.out.println("Итоговый бонус: 0 ");
+        int bonus = 0;
+        if (amount > 1000) {
+            bonus = amount / 100;
+        }
+            int finalamount = amount + score + bonus;
+
+            System.out.println("Итоговый счет: " + finalamount);
+            System.out.println("Бонус: " + bonus);
         }
 
     }
 
-}
