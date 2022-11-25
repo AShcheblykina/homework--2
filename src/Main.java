@@ -8,11 +8,11 @@ public class Main {
         if (amount > 1000) {
             bonus = amount / 100;
         }
-            int finalamount = amount + score + bonus;
+        int finalamount = amount + score + bonus;
 
-            System.out.println("Итоговый счет: " + finalamount);
-            System.out.println("Бонус: " + bonus);
-        }
-
+        System.out.println("Итоговый счет: " + finalamount);
+        System.out.println("Бонус: " + bonus);
     }
+
+}
 
